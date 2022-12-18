@@ -1,0 +1,7 @@
+(gofromto idle loc1 ladle loc1)
+(grip ladle loc1)
+(move ladle loc1 pot loc1)
+(do_liquid ladle loc1 pot loc1)
+(move ladle loc1 bowl loc1)
+(cease_liquid ladle loc1 bowl loc1)
+(ungrip ladle)

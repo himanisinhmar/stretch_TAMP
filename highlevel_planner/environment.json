@@ -1,0 +1,167 @@
+{
+    "objects":
+	{
+        "table":
+        {
+            "dimensions":
+            {
+                "W" : 1.52,
+                "D" : 0.76,
+                "H" : 0.2
+            },
+            "mass" : 100,
+            "type" : "box"
+
+        },
+        "pot":
+        {
+            "dimensions":
+            {
+                "W" : 0.33,
+                "D" : 0.21,
+                "H" : 0.13,
+                "r_out": 0.3,
+                "r_in": 0.25
+            },
+            "mass" : 10,
+            "type" : "box",
+            "affordances":
+            {
+                "liquid_1":
+                {
+                    "able": 1,
+                    "has": 1,
+                    "manipulate":
+                    {
+                        "r" : [0,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [0,0,0]
+                },
+                "liquid_2":
+                {
+                    "able": 1,
+                    "has": 1,
+                    "manipulate":
+                    {
+                        "r" : [1,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [0,0,0]
+                }
+            }
+        },
+        "bowl":
+        {
+            "dimensions":
+            {
+                "W" : 1,
+                "D" : 1,
+                "H" : 0.3,
+                "r_in": 0.1,
+                "r_out": 0.15
+            },
+            "mass" : 3,
+            "type" : "annulus",
+            "affordances":
+            {
+                "liquid_1":
+                {
+                    "able": 1,
+                    "has": 0,
+                    "manipulate":
+                    {
+                        "r" : [0,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [0,0,0]
+                }
+            }
+        },
+        "ladle":
+        {
+            "dimensions":
+            {
+                "W" : 0.29,
+                "D" : 0.08,
+                "H" : 0.08
+            },
+            "type": "box",
+            "mass" : 0.5,
+            "affordances":
+            {
+                "liquid_1":
+                {
+                    "able": 1,
+                    "has": 0,
+                    "manipulate":
+                    {
+                        "r" : [0,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [-0.2,0,0]
+                },
+                "liquid_2":
+                {
+                    "able": 1,
+                    "has": 0,
+                    "manipulate":
+                    {
+                        "r" : [-0.2,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [-0.2,0,0]
+                }
+            }
+        },
+        "cup":
+        {
+            "dimensions":
+            {
+                "W" : 1,
+                "D" : 1,
+                "H" : 1
+            },
+            "mass" : 1,
+            "affordances":
+            {
+                "liquid_1":
+                {
+                    "able": 1,
+                    "has": 0,
+                    "manipulate":
+                    {
+                        "r" : [0,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [0,0,0]
+                }
+            }
+
+        },
+        "stick":
+        {
+            "dimensions":
+            {
+                "W" : 1,
+                "D" : 1,
+                "H" : 1
+            },
+            "mass" : 0.2,
+            "affordances":
+            {
+                "push_1":
+                {
+                    "able": 1,
+                    "has": 0,
+                    "manipulate":
+                    {
+                        "r" : [0,0,0],
+                        "R" : [0,0,0]
+                    },
+                    "EE": [1,0,0]
+                }
+            }
+        }
+    }
+}
