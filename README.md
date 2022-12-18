@@ -1,5 +1,4 @@
-# CS6751_project
-CS6751 manipulation project - manipulating a new environment based on affordances
+Robot manipulation project - manipulating a new environment based on affordances
 
 ## Install planner
 `wget https://bitbucket.org/ipc2018-classical/team1/raw/ipc-2018-seq-sat/Singularity` \
